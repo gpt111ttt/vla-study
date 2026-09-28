@@ -1,7 +1,0 @@
-| 阶段 | Vision Backbone | LLM Backbone | Projector |
-|---|---|---|---|
-| `"align"` | ❄️ 冻结 | ❄️ 冻结 | 🔥 可训练 |
-| `"finetune"` / `"vla-train"` | ❄️ 冻结 | 🔥 可训练 | 🔥 可训练 |
-| `"full-finetune"` / `"vla-full-train"` | 🔥 可训练 | 🔥 可训练 | 🔥 可训练 |
-| `"last-layer-finetune"` / `"vla-last-layer-train"` | ❄️ 冻结 | 🔥 仅最后一层 | ❄️ 冻结 |
-
