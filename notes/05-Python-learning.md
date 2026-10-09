@@ -27,6 +27,7 @@ print(compute(3, 4, op="div", scale=0.5, mode="safe"))  # (0.375, {'mode': 'safe
 
 一句话总结：参数负责"接收输入"（位置/关键字/可变/默认），返回值负责"输出结果"（可多个），lambda 负责"快速定义小逻辑"，三者组合就能封装出灵活、健壮的常用计算函数。
 
+
 __init__ 初始化方法
 class Robot:
     def __init__(self, name, dof):
