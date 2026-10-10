@@ -35,3 +35,5 @@ class Robot:
         self.dof = dof
 
 r = Robot("arm1", 6)         # 创建实例时自动调用 __init__
+## 2026-10-10 学习记录
+- 学会了 echo 的覆盖和追加
