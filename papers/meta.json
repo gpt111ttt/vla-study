@@ -53,8 +53,8 @@
    }
   ]
  },
- "official_code": null,
- "official_code_from": null,
+ "official_code": "https://github.com/Physical-Intelligence/openpi",
+ "official_code_from": " --code 手动指定",
  "code_dir": null,
- "fetched": "2026-10-17"
+ "fetched": "2026-10-20"
 }
